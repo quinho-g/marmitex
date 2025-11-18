@@ -54,8 +54,11 @@ p {
     padding-right: 10rem;
 } a {
     transition: 0.3s;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 a:hover {
     transform: scale(1.05);
@@ -416,6 +419,7 @@ section {
 
 
 }
+
 
 
 
